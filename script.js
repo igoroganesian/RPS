@@ -16,7 +16,7 @@ computerPlay = () => {
 
  //rework to end if input != valid
 
-function game() {
+function playGame() {
 
 let computerSelection = computerPlay();
 let playerSelection = prompt('What\'s your move?').toLowerCase(); 
